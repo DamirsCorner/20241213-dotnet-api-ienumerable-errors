@@ -1,0 +1,11 @@
+@ApiIenumerableErrors_HostAddress = http://localhost:5298
+
+GET {{ApiIenumerableErrors_HostAddress}}/weatherforecast/unhandled
+Accept: application/json
+
+###
+
+GET {{ApiIenumerableErrors_HostAddress}}/weatherforecast/handled
+Accept: application/json
+
+###
